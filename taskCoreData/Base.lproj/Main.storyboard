@@ -43,6 +43,9 @@
                                 <state key="normal" title="Save">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sJF-eO-wbC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -64,15 +67,18 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="textField" destination="Vc4-wf-Wk9" id="mfV-Q7-8fQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="767" y="277"/>
         </scene>
-        <!--View Controller-->
+        <!--ShowVC-->
         <scene sceneID="VYr-Zd-QIN">
             <objects>
-                <viewController id="mzq-k7-4fq" sceneMemberID="viewController">
+                <viewController id="mzq-k7-4fq" customClass="ShowVC" customModule="taskCoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="duj-CZ-Wfc"/>
                         <viewControllerLayoutGuide type="bottom" id="9sB-e3-Iur"/>
@@ -96,6 +102,9 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="showTextField" destination="KpM-uS-DHW" id="Hce-w6-CgU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wjY-fI-6nX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

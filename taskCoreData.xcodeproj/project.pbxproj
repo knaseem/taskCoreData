@@ -15,6 +15,7 @@
 		1FCAB48F1D5CD06600B547D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCAB48D1D5CD06600B547D3 /* LaunchScreen.storyboard */; };
 		1FCAB4981D5CD1EB00B547D3 /* Contacts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCAB4961D5CD1EB00B547D3 /* Contacts+CoreDataProperties.swift */; };
 		1FCAB4991D5CD1EB00B547D3 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCAB4971D5CD1EB00B547D3 /* Contacts.swift */; };
+		1FCAB49B1D5CD59100B547D3 /* ShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCAB49A1D5CD59100B547D3 /* ShowVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1FCAB4901D5CD06600B547D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FCAB4961D5CD1EB00B547D3 /* Contacts+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contacts+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1FCAB4971D5CD1EB00B547D3 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		1FCAB49A1D5CD59100B547D3 /* ShowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				1FCAB4811D5CD06600B547D3 /* AppDelegate.swift */,
 				1FCAB4831D5CD06600B547D3 /* ViewController.swift */,
+				1FCAB49A1D5CD59100B547D3 /* ShowVC.swift */,
 				1FCAB4851D5CD06600B547D3 /* Main.storyboard */,
 				1FCAB48B1D5CD06600B547D3 /* Assets.xcassets */,
 				1FCAB48D1D5CD06600B547D3 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 				1FCAB4841D5CD06600B547D3 /* ViewController.swift in Sources */,
 				1FCAB4821D5CD06600B547D3 /* AppDelegate.swift in Sources */,
 				1FCAB4981D5CD1EB00B547D3 /* Contacts+CoreDataProperties.swift in Sources */,
+				1FCAB49B1D5CD59100B547D3 /* ShowVC.swift in Sources */,
 				1FCAB48A1D5CD06600B547D3 /* taskCoreData.xcdatamodeld in Sources */,
 				1FCAB4991D5CD1EB00B547D3 /* Contacts.swift in Sources */,
 			);
